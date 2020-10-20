@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Authentication.Controllers
 {
-    [Authorize(Roles = UserRoles.Kassir)]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class MealController : ControllerBase
